@@ -7,9 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "vue": "^2.6.11"
-  },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
@@ -35,5 +32,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "antd": "^4.18.5",
+    "vue": "^2.6.14"
+  }
 }

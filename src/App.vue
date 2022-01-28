@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Intro msg="可只用HTML和CSS构建页面，头部和导航之后再做" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Intro from './components/Intro.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Intro
   }
 }
 </script>
